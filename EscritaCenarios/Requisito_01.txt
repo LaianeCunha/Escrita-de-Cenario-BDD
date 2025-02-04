@@ -1,4 +1,4 @@
-Descrição::
+Descrição:
 Um usuário do site SauceDemo deseja realizar login na plataforma utilizando suas credenciais
 para acessar o inventário de produtos e utilizar as funcionalidades desponíveis. 
 

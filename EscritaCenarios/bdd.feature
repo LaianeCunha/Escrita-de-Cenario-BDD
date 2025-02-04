@@ -14,7 +14,7 @@ Cenario: Login com credenciais válidas
     Quando o usuário clicar no botão de login 
     Então o usuário deve ser redirecionado para a página de inventário 
     E a URL deve conter "/inventory.html".
-    Exemplos:
+    Exemplos: 
     | standard_user |
     | secret_sauce |
 
