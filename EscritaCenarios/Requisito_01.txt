@@ -1,0 +1,30 @@
+Descrição::
+Um usuário do site SauceDemo deseja realizar login na plataforma utilizando suas credenciais
+para acessar o inventário de produtos e utilizar as funcionalidades desponíveis. 
+
+https://www.saucedemo.com/
+
+Critério de aceite 01
+
+> Login bem-sucedido com credenciais válidas 
+    > ele deve ser redirecionado para a página de inventário
+    > URL deve incluir "/inventory.html"
+
+**********************************************************************
+
+2. **Falha no login com senha incorreta:**
+    - O usuário insere um nome válido e uma senha incorreta.
+    - uma mensagem de erro deve ser exibida indicando que o nome e a senha não corresponde a nenhum cadastro
+    - e ele deve permanecer na página de login.
+
+3. **Falha no login com campo de senha vazio:**
+    - O visitante insere um nome válido, mas deixa o campo de senha vazio.
+    - Ao tentar fazer login, uma mensagem de erro deve ser exibida informando que a senha é obrigatório
+
+4. **Falha no login com campo de nome vazio:**
+    - O visitante deixa o campo de nome vazio e insere uma senha válida.
+    - Ao tentar fazer login, uma mensagem de erro deve ser exibida informando que o nome é obrigatório
+
+5. **Falha no login com ambos os campos vazios:**
+    - O visitante deixa ambos os campos de nome e senha vazios.
+    - Ao tentar fazer login, uma mensagem de erro deve ser exibida informando que o nome é obrigatório
