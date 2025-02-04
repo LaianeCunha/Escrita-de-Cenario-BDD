@@ -23,6 +23,3 @@ Para a criação dos cenários foi utilizada o Visual Studio Code (VSCode)
 ### Plugin instalado no VSCode
 Gherkin [PT - BR] EnvolTi   
 <https://marketplace.visualstudio.com/items?itemName=EnvolTI.gherkinptbrenvolti>
-
-N
-  
